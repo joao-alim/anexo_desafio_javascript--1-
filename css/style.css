@@ -118,3 +118,48 @@ button {
     border: 0px;
     border-radius: 10px;
 }
+
+#carousel {
+    width: 80%; 
+    max-width: 1010px; 
+    height: 80%; 
+    margin: 30px auto; 
+    overflow: hidden; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    position: relative;
+}
+
+#carousel .conteiner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 10px;
+    transition: opacity 0.1s ease-in-out;
+    align-items: center;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.4);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    line-height: 40px;
+    text-align: center;
+    transition: background 0.3s ease;
+    z-index: 10;
+}
+
+.carousel-btn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#prev { left: 15px; }
+#next { right: 15px; }
