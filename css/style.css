@@ -122,7 +122,7 @@ button {
 #carousel {
     width: 80%; 
     max-width: 1010px; 
-    height: 80%; 
+    height: auto; 
     margin: 30px auto; 
     overflow: hidden; 
     border-radius: 10px;
